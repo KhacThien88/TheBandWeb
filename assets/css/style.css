@@ -1,0 +1,422 @@
+/* Reset CSS styles */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box!important;
+}
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;    
+    line-height: 1.5;
+    scroll-behavior: smooth;
+}
+#header{
+    width: 100%;
+    height: 47.5px;
+    background-color: black;
+    color: white !important;
+    position: fixed;
+    top: 0 ;
+    left: 0;
+    right: 0;
+}
+
+#nav{
+    display: inline-block;
+}
+#header ul li{
+    display: inline-block;
+    line-height: 47.5px;
+    padding: 0px 25px;
+    text-align: left;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+  
+}
+
+#header ul li a{
+    color: white ;
+    text-decoration: none;
+}
+#contain{
+   position: relative;
+}
+.ti-angle-down{
+    width: 7px;
+}
+#header ul li:hover a{
+    background-color: aliceblue;
+    color: #000;
+}
+#header> ul >li:hover{
+    background-color: aliceblue;
+    color: #000;
+}
+#contain:hover #child-contact{
+   display: block;
+}
+
+#child-contact{
+    
+    display: none ;
+    background-color: aliceblue;
+    color: #000;
+    position: absolute;
+    height:calc(47.5*1.5)px ;
+    left:0;
+    
+}
+#child-contact li{
+    width: 100%;
+}
+#child-contact li:hover{
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#search{
+    float: right;
+    line-height: 47.5px;
+    padding-right: 10px;
+}
+#slider{
+    margin-top: 47.5px;
+    padding-top: 50%;
+    background: url(/assets/lionel-yu-piano.jpg) top center /cover no-repeat;
+}
+#location , 
+#about-location{
+    color :#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#location{
+    margin: 15px;
+    font-weight: 400;
+    font-size: 24px;
+}
+#about-location{
+    padding-bottom: 22px;
+    font-weight: bolder;
+}
+#content{
+    height: 670px;
+    background-color: #fff;
+    padding: 64px 16px; 
+}
+#nameBand{
+    margin:10px 0;
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: 400;
+    font-size:30px;
+}
+#slogan{
+    margin:15px 0;
+    text-align: center!important;
+    opacity: 0.6;
+    font-style: italic;
+}
+#about-band{
+    text-align: justify;
+    margin:15px 0;
+}
+#member-band{ 
+    height: 100%;
+}
+#member{
+    float:left;
+    width:33.33333%;
+    display:block;
+    height:221.156px;
+}
+#name-member{
+    
+    text-align: center;
+    margin : 15px 0;
+}
+.img-member{
+    background:url(/assets/yu-canon.jpg) top center /cover no-repeat;
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 13%;
+}
+.img-member1{
+    background:url(/assets/yu-popo.jpg) top center /cover no-repeat;
+}
+.img-member2{
+    background:url(/assets/yu-sonata.jpg) top center /cover no-repeat;
+}
+#tour-date{
+    height: 843.78px;
+    background-color: #000;
+    padding: 64px 16px; 
+}
+#nameTour{
+    margin:10px 0;
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: 400;
+    font-size:30px;
+    color: #fff;
+}
+#sloganTour{
+    margin:15px 0;
+    text-align: center!important;
+    opacity: 0.6;
+    font-size: italic;
+    color: #fff;
+}
+#September,
+#October,
+#November{
+    background-color: #fff;
+    padding:8px 16px;
+    border-bottom: 1px solid #ddd;
+    color: #757575!important;
+    list-style-type: none;
+}
+#Soldout{
+    color: #fff!important;
+    background-color: #f44336!important;
+    margin-left: 16px;
+    padding: 0 8px;
+}
+#right-3{
+    float: right!important;
+    margin: right 16px !important; 
+    background-color: #000;
+    border-radius: 50%;
+    padding: 0 8px;
+    color: #fff;
+}
+#location-coming{
+    padding: 32px 8px;
+    height: 467.62px;
+    position: relative;
+}
+#Paris,
+#SanFransico,
+#NewYork{
+    position: absolute;
+    display: inline-block;
+    height:387.615px;
+    width:33%;
+    padding:0 8px;
+    margin-bottom: 16px;
+    
+}
+#img-NewYork{
+    height: 50%;
+    background: url(/assets/newyork.jpg) top center /cover no-repeat;
+}
+#content-NewYork{
+   background-color: #fff;
+}
+#NY,
+#time-NY,
+#description{
+    background-color: #fff;
+    color: #000;
+    margin:15px 0;
+    padding: 0 16px;
+}
+#NY{
+    margin-top: -15px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+#time-NY{
+    opacity: 0.6;
+}
+#Buy{
+    margin-bottom: 16px;
+    margin-left: 16px;
+    background-color: #000;
+    color: #fff;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+#Paris{
+    margin-left:33.3333%;
+}
+#SanFransico{
+    margin-left:66.6666%;
+}
+#img-Paris{
+    height: 50%;
+    background: url(/assets/paris.jpg) top center /cover no-repeat;
+}
+#img-Fra{
+    height: 50%;
+    background: url(/assets/sanfran.jpg) top center /cover no-repeat;
+}
+#contact{
+    max-height: 800px;
+    padding:64px 16px;
+    background-color: #fff;
+
+}
+.model{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 100px;
+    animation: modalFadein ease .5s;
+}
+#content-model{
+    margin:0 97.667px;
+    height: 100%;
+}
+#Ticket-header{
+    height: 30%;
+    background-color: rgb(0,150,136);
+    color: rgb(255,255,255);
+    padding: 32px 16px;
+}
+.ti-close{
+    float:right;
+    padding : 8px 16px; 
+    color: rgb(255,255,255) ;
+    cursor: pointer;
+}
+#ticket-inheader{
+    text-align: center;
+    letter-spacing: 4px;
+    margin:10px 0 ;
+    font-weight: 400;
+    font-size: 30px;
+}
+#container{
+    height: 60%;
+    background-color: #fff;
+    padding: 0 16px;
+    
+}
+#in-previous{
+    padding: 15px 0;
+}
+.in-sendto,
+.in-many{
+    border: 1px solid #ccc!important;
+    padding: 8px;
+    display: block;
+    width: 100%;
+}
+#pay{
+    margin: 16px 0;
+    padding: 16px 16px;
+    width: 100%;
+    background-color: #009688!important;
+    color: #fff;
+    border: 0px!important;
+    cursor: pointer;
+}
+#need{
+    float: right;
+}
+.model.open{
+    display: block;
+}
+@keyframes modalFadein{
+    from{
+        transform: translateY(-150px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+#information-user{
+    padding: 32px 0;
+}
+#contact-user{
+    width: 49.999%;
+    margin-bottom: 16px!important;
+    font-size: 18px!important;
+    float: left;
+}
+#in-information{
+    margin-left:49.999%;
+    padding : 0 8px;
+}
+#in-email,
+#in-name,
+#in-content{
+     width: 100%;
+     border: 1px solid #ccc;
+     height: 30px;
+     margin:5px 0;
+}
+#in-message{
+    padding: 0 8px;
+    margin-left: 49.9999%;
+}
+#send{
+    float: right;
+    margin:16px 8px;
+    padding: 8px 16px;
+    background-color: #009688;
+    color: #ddd;
+    cursor: pointer;
+    border: 0;
+}
+
+@media only screen and (max-width:37.5em){
+    #header ul li{
+        padding:0 11px;
+    }
+    #img-member{
+        height: 50%;
+    }
+}
+.grid{
+    width: 100% ;
+    display: block;
+    margin : 0;
+}
+.wide{
+    max-width: 1200px;
+    margin : 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:-4px ;
+    margin-right:-4px ;
+}
+@media (min-width: 740px) and (max-width:1023px){
+    .wide{
+        width: 644px ;
+    }
+}
+@media (min-width: 1024px) and (max-width:1239px){
+    .wide{
+        width: 974px;
+    }
+    .wide .row{
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+}
+@media (min-width:740px) {
+    .row{
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+}
+@media (min-width:1113px){
+    .row{
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+}
